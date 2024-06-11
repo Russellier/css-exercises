@@ -38,11 +38,13 @@ a {
 body {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .header,
 .footer {
   display: flex;
+  justify-content:space-between;
 }
 
 .left-links,
@@ -51,8 +53,4 @@ body {
   display: flex;
   gap: 16px;
 
-}
-
-.footer {
-  margin-top: auto;
 }
