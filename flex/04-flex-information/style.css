@@ -14,6 +14,20 @@ img {
   margin-bottom: 32px;
 }
 
+.all-items {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-basis: 200px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
